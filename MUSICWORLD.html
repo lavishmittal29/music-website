@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lavish Mittal Music</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./MUSICWORLD.css">
+    <script src="./MUSICWORLD.js"></script>
+</body>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#instruments">Instruments</a></li>
+            <li><a href="#performances">Performances</a></li>
+            <li><a href="#music-player">Music</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    
+    <header>
+        <div class="header-content">
+            <h1>Lavish Mittal</h1>
+            <p>Musician • Composer • Performer</p>
+            <button id="play-music">🎵 Listen to My Music</button>
+        </div>
+    </header>
+    
+    <section id="about">
+        <h2>About Me</h2>
+        <div class="about-container">
+            <div class="about-image">
+                <img src="drumshd.jpg" alt="Lavish Mittal">
+            </div>
+            <div class="about-text">
+                <p>Hello, I'm Lavish Mittal, a passionate musician dedicated to creating powerful and emotive musical experiences. With over 10 years of musical training, I've mastered multiple instruments and developed a unique sound that blends classical techniques with modern innovations.</p>
+                <p>My musical journey began at the age of 7 when I first learned to play the dholak and piano, and I've been in love with creating music ever since. I've performed at various venues across the country and collaborated with talented artists from diverse musical backgrounds.</p>
+                <p>I believe music has the power to touch souls, transcend boundaries, and create meaningful connections between people. Through my performances and compositions, I strive to create moments of beauty, reflection, and joy.</p>
+            </div>
+        </div>
+    </section>
+    
+    <section id="instruments">
+        <h2>Instruments I Play</h2>
+        <div class="instruments-container">
+            <div class="instrument">
+                <h3>Dholak</h3>
+                <img src="DHOLAK.webp" alt="Dholak">
+                <p>The dholak was my first instrument, which I started playing at age 7. This traditional Indian drum has been central to my musical foundation, allowing me to develop a deep understanding of rhythm and percussion. I've incorporated various regional playing styles, from Punjab to Rajasthan, into my technique.</p>
+                <video controls>
+                    <source src="dholak-performance.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+            
+            <div class="instrument">
+                <h3>Octapad</h3>
+                <img src="octapad.webp" alt="Octapad">
+                <p>I incorporated the Octapad into my musical journey, utilizing its versatility to blend traditional percussion with modern electronic beats. My approach combines dynamic finger drumming techniques with customized sound modulation, allowing me to create rhythmic patterns that adapt to various genres, from classical fusion to contemporary music. The Octapad has become an integral part of my performances, adding depth, precision, and innovation to my compositions.</p>
+                <video controls>
+                    <source src="piano-performance.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+            
+            <div class="instrument">
+                <h3>DHOL</h3>
+                <img src="dhol.jpg" alt="DHOL">
+                <p>I mastered the Indian instrument 'Dhol,' blending traditional rhythmic patterns with modern influences to produce dynamic beats suited for various musical styles, from folk to fusion. My approach combines intricate techniques with contemporary adaptations, allowing me to craft powerful and energetic rhythms that enhance any musical composition. The Dhol plays a significant role in my performances, adding depth and vibrancy to my music.</p>
+                <video controls>
+                    <source src="DHOL-performance.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+        </div>
+    </section>
+    
+    <section id="performances">
+        <h2>Recent Performances</h2>
+        <div class="performances-grid">
+            <div class="performance-card">
+                <img src="/api/placeholder/400/200" alt="Concert Hall Performance">
+                <h3>National Music Festival</h3>
+                <p>Delhi, 2023</p>
+                <p>Featured soloist performing original compositions blending dholak and piano.</p>
+            </div>
+            
+            <div class="performance-card">
+                <img src="/api/placeholder/400/200" alt="Studio Recording">
+                <h3>Symphony Orchestra Collaboration</h3>
+                <p>Mumbai, 2023</p>
+                <p>Guest performer with the Mumbai Symphony Orchestra, featuring a fusion of traditional and classical elements.</p>
+            </div>
+            
+            <div class="performance-card">
+                <img src="/api/placeholder/400/200" alt="Festival Performance">
+                <h3>Sunset Jazz Club</h3>
+                <p>Bangalore, 2023</p>
+                <p>Weekly residency performing contemporary jazz interpretations with Indian percussion influences.</p>
+            </div>
+        </div>
+    </section>
+    
+    <section id="music-player">
+        <h2>Listen to My Music</h2>
+        <div class="music-samples">
+            <div class="visualizer-container" id="visualizer">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+            
+            <div class="track">
+                <div class="track-info">
+                    <h3>Rhythms of Home</h3>
+                    <p>Dholak Solo • 2023</p>
+                </div>
+                <div class="track-controls">
+                    <button class="play-track" data-track="track1.mp3">▶️ Play</button>
+                </div>
+            </div>
+            
+            <div class="track">
+                <div class="track-info">
+                    <h3>Midnight Sonata</h3>
+                    <p>Piano Composition • 2022</p>
+                </div>
+                <div class="track-controls">
+                    <button class="play-track" data-track="track2.mp3">▶️ Play</button>
+                </div>
+            </div>
+            
+            <div class="track">
+                <div class="track-info">
+                    <h3>Fusion Horizons</h3>
+                    <p>Dholak & Piano Duet • 2023</p>
+                </div>
+                <div class="track-controls">
+                    <button class="play-track" data-track="track3.mp3">▶️ Play</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <div class="contact-container">
+            <p>For bookings, collaborations, or just to say hello:</p>
+            <p>Email: <a href="mailto:mittallavish29@gmail.com">mittallavish29@gmail.com</a></p>
+            <p>Phone: <a href="tel:+918827972224">+91 8827972224</a></p>
+            
+            <div class="social-links">
+                <a href="https://www.instagram.com/lavish_mittal_29?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" title="Instagram"><img src="instagram.svg" alt="" width="50" height="50"></a>
+                <a href="https://youtube.com/@lavishspecials700?si=H3PFHpmDbxKbCHXc" title="YouTube"><img src="youtube.svg" alt="" width="50" height="50"></a>
+                <a href="https://www.linkedin.com/in/lavish-mittal-a046791b3" title="Linkedin"><img src="linkedin.svg" alt="" width="50" height="50"></a>
+                <a href="#" title="Facebook"><img src="facebook.svg" alt="" width="50" height="50"></a>
+                <a href="#" title="Spotify"><img src="spotify-icon.svg" alt="" width="50" height="50"></a>
+            </div>
+        </div>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 Lavish Mittal Music. All rights reserved.</p>
+    </footer>
+    
+   
+</html>
